@@ -1,0 +1,178 @@
+/* General Styles */
+body {
+    font-family: "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0033cc; /* Main Blue Background */
+    color: black; /* Black text color */
+}
+
+/* Header */
+header {
+    background-color: #0033cc; /* Blue */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid #D2A10C; /* Gold Border */
+}
+
+.tagline {
+    font-size: 18px;
+    font-style: italic;
+    color: yellow;
+}
+
+/* Navigation */
+nav {
+    background-color: #002699; /* Dark Blue */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #D2A10C; /* Gold */
+}
+
+/* Sidebar */
+aside {
+    background-color: white;
+    padding: 15px;
+    width: 220px;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    height: 100%;
+    color: black;
+    border-right: 5px solid #D2A10C; /* Gold border on the right */
+}
+
+aside h2 {
+    font-size: 22px;
+    color: #D2A10C; /* Gold */
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 15px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #000080; /* Dark Blue */
+    font-weight: bold;
+}
+
+aside ul li a:hover {
+    color: #D2A10C; /* Gold */
+}
+
+/* Main Content */
+main {
+    margin-left: 240px;
+    padding: 20px;
+    background: white;
+    border-left: 5px solid #D2A10C; /* Gold left border */
+    border-right: 5px solid #D2A10C; /* Gold right border */
+    border-bottom: 5px solid #D2A10C; /* Gold bottom border */
+    padding: 20px;
+}
+
+/* Sections */
+section {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border-left: 5px solid #D2A10C; /* Gold Border */
+    color: black;
+}
+
+/* Image Styling */
+img {
+    width: 50vw; /* 50% of the viewport width */
+    max-width: 200px; /* Prevents it from getting too big */
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 3px solid #D2A10C; /* Gold Border */
+}
+
+/* Footer */
+footer {
+    background-color: #0033cc; /* Blue */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 5px solid #D2A10C; /* Gold Border */
+}
+
+/* Form Styling */
+form {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    color: black;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: black;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 2px solid #D2A10C; /* Gold Border */
+    border-radius: 5px;
+    font-family: "Times New Roman", serif;
+    background-color: white;
+    color: black;
+}
+
+form button {
+    background: #D2A10C; /* Gold */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+form button:hover {
+    background: #D2A10C; /* Gold */
+    color: black;
+}
